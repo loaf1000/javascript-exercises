@@ -1,7 +1,7 @@
 const repeatString = function(string, timesToRepeat) {
     let finalString = "";
 
-    if(Math.sign(timesToRepeat) < 0)
+    if(timesToRepeat < 0)
     {
         return 'ERROR';
     }
